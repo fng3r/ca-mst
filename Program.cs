@@ -5,30 +5,6 @@ using System.Linq;
 
 namespace ca
 {
-    public static class EdgeExtensions
-    {
-        private static readonly string newLine = Environment.NewLine;
-
-        public static string ToOutput(this List<Edge> edges)
-        {
-            var adjacencyLists = new SortedList<int, int>[edges.Count + 2];
-            for (int i = 0; i < adjacencyLists.Length; i++)
-                adjacencyLists[i] = new SortedList<int, int>();
-
-            foreach (var e in edges)
-            {
-                adjacencyLists[e.From.Number].Add(e.To.Number, e.To.Number);
-                adjacencyLists[e.To.Number].Add(e.From.Number, e.From.Number);
-            }
-
-            return string.Join(
-                newLine, adjacencyLists
-                    .Skip(1)
-                    .Select(l => string.Join(" ", l.Values) + " 0")
-                    ) + newLine + edges.Sum(e => e.Weight);
-        }
-    }
-
     class Program
     {
         static void Main()
@@ -97,24 +73,6 @@ namespace ca
             var temp = next[v.Number];
             next[v.Number] = next[w.Number];
             next[w.Number] = temp;
-        }
-    }
-
-    public class Vertex
-    {
-        public readonly int Number;
-        public readonly int X;
-        public readonly int Y;
-        public Vertex(int number, int x, int y)
-        {
-            Number = number;
-            X = x;
-            Y = y;
-        }
-
-        public override string ToString()
-        {
-            return string.Format("V{0} ({1}, {2})", Number, X, Y);
         }
     }
 }
