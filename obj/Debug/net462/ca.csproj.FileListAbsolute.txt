@@ -1,0 +1,7 @@
+C:\Users\Dmitriy\Desktop\ca\bin\Debug\net462\ca.exe
+C:\Users\Dmitriy\Desktop\ca\bin\Debug\net462\ca.pdb
+C:\Users\Dmitriy\Desktop\ca\obj\Debug\net462\ca.csproj.CoreCompileInputs.cache
+C:\Users\Dmitriy\Desktop\ca\obj\Debug\net462\ca.AssemblyInfoInputs.cache
+C:\Users\Dmitriy\Desktop\ca\obj\Debug\net462\ca.AssemblyInfo.cs
+C:\Users\Dmitriy\Desktop\ca\obj\Debug\net462\ca.exe
+C:\Users\Dmitriy\Desktop\ca\obj\Debug\net462\ca.pdb

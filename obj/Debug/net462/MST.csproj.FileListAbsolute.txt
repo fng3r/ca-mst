@@ -1,0 +1,7 @@
+C:\Users\Dmitriy\Desktop\ca\bin\Debug\net462\MST.exe
+C:\Users\Dmitriy\Desktop\ca\bin\Debug\net462\MST.pdb
+C:\Users\Dmitriy\Desktop\ca\obj\Debug\net462\MST.csproj.CoreCompileInputs.cache
+C:\Users\Dmitriy\Desktop\ca\obj\Debug\net462\MST.AssemblyInfoInputs.cache
+C:\Users\Dmitriy\Desktop\ca\obj\Debug\net462\MST.AssemblyInfo.cs
+C:\Users\Dmitriy\Desktop\ca\obj\Debug\net462\MST.exe
+C:\Users\Dmitriy\Desktop\ca\obj\Debug\net462\MST.pdb
